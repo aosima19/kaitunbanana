@@ -1,4 +1,3 @@
-```lua
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().Key = ""
 getgenv().BANANACATBF = {
@@ -22,25 +21,25 @@ getgenv().BANANACATBF = {
     },
     ["Do Action"] = {
         ["Get Godhuman"] = true,
-        ["Get Rengoku"] = true,
-        ["Get True Triple Katana"] = true,
-        ["Get Hallow Scythe"] = true,
+        ["Get Rengoku"] = false,
+        ["Get True Triple Katana"] = false,
+        ["Get Hallow Scythe"] = false,
         ["Get Cursed Dual Katana"] = true,
         ["Get Soul Guitar"] = true,
-        ["Awake Current Blox Fruit"] = true,
-        ["Get Mirror Fractal"] = true,
+        ["Awake Current Blox Fruit"] = false,
+        ["Get Mirror Fractal"] = false,
     },
     ["Buy Haki"] = {
-        ["Enhancement"] = true,
-        ["Skyjump"] = true,
-        ["Flash Step"] = true,
-        ["Observation"] = true,
-        ["Legendary Enhancement"] = true,
+        ["Enhancement"] = false,
+        ["Skyjump"] = false,
+        ["Flash Step"] = false,
+        ["Observation"] = false,
+        ["Legendary Enhancement"] = false,
     },
     ["Auto Race"] = "None",
     ["Blox Fruit Sniper"] = {},
     ["Main Blox Fruit"] = {},
-    ["Eat Sniper Blox Fruits"] = false,
+    ["Eat Sniper Blox Fruits"] = true,
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitun.lua"))()```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitun.lua"))()
