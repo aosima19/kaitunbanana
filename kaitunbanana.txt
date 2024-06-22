@@ -1,9 +1,5 @@
-Kaitun xero
-
-Blox Fruit (kaitun):
-```lua
 getgenv().ConfigSetting = {
-    ["Team"] = "Pirates", -- Marines
+    ["Team"] = "Marines", -- Pirates
     ["Webhook"] = {
         ["Url"] = "", -- link webhook
         ["Enabled"] = true, -- enable webhook
