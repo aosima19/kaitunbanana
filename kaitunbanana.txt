@@ -1,45 +1,39 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = ""
-getgenv().BANANACATBF = {
-    ["Performance"] = {
-        ["Black Screen"] = false,
-        ["Lock FPS"] = 60,
-    },
-    ["Fast Attack Duration/Cooldown"] = {5, 3},
-    ["Raid if Maxed Blox Fruit"] = true,
-    ["Farm boss drops while not maxed"] = false,
-    ["Farm Blox Fruit Mastery if maxed"] = true,
-    ["Farm method after maxed"] = "Raid Boss Farm - Cake Prince Farm", --"Mob Farm - Level Path","Raid Boss Farm - Cake Prince Farm","Mob Aura - Haunted Castle","Mob Aura - Sea of Treats 4"
-    ["Extra time Farm until unlock skills"] = true,
-    ["Hop Server"] = {
-        ["Type"] = {
-            ["[Main] Server Hop"] = false,
-            ["[Farm] Server Hop if Player nearby"] = false,
-            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = false,
-        },
-        ["Delay"] = 0,
-    },
-    ["Do Action"] = {
-        ["Get Godhuman"] = true,
-        ["Get Rengoku"] = false,
-        ["Get True Triple Katana"] = false,
-        ["Get Hallow Scythe"] = false,
-        ["Get Cursed Dual Katana"] = true,
-        ["Get Soul Guitar"] = true,
-        ["Awake Current Blox Fruit"] = false,
-        ["Get Mirror Fractal"] = false,
-    },
-    ["Buy Haki"] = {
-        ["Enhancement"] = false,
-        ["Skyjump"] = false,
-        ["Flash Step"] = false,
-        ["Observation"] = false,
-        ["Legendary Enhancement"] = false,
-    },
-    ["Auto Race"] = "None",
-    ["Blox Fruit Sniper"] = {},
-    ["Main Blox Fruit"] = {},
-    ["Eat Sniper Blox Fruits"] = true,
-}
+Kaitun xero
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitun.lua"))()
+Blox Fruit (kaitun):
+```lua
+getgenv().ConfigSetting = {
+    ["Team"] = "Pirates", -- Marines
+    ["Webhook"] = {
+        ["Url"] = "", -- link webhook
+        ["Enabled"] = true, -- enable webhook
+    },
+    ["Auto Farm Level"] = true,
+    ["Auto Dark Step"] = true,
+    ["Auto Death Step"] = true,
+    ["Auto Electro"] = true,
+    ["Auto Electric Claw"] = true,
+    ["Auto Dragon Breath"] = true,
+    ["Auto Dragon Talon"] = true,
+    ["Auto Fishman Karate"] = true,
+    ["Auto Sharkman Karate"] = true,
+    ["Auto Super Human"] = true,
+    ["Auto God Human"] = true,
+    ["Auto Soul Guitar"] = true,
+    ["Auto Yama"] = true,
+    ["Auto Dark Dagger"] = true,
+    ["Auto True Triple Katana"] = true,
+    ["Auto Race V2"] = true,
+    ["Method Farm Beli"] = "Chest", -- "Farm" or "Chest" to earn beli
+    ["Snipe Fruit"] = {
+        ["Fruit To Snipe"] = "",
+        ["Enabled"] = false,
+    },
+    ["White Screen"] = false, -- reduce lag, 
+    ["Auto Awake Fruit"] = true,
+    ["Safe Auto Farm"] = true, -- true for reduce reset stat (will hop server after done 30 quest)
+    ["Auto Saber"] = true,
+    ["Auto Acidum Rifle"] = false,
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/main/kaitun.lua"))()
+```
